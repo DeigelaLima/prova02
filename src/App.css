@@ -1,5 +1,15 @@
 .App {
-  text-align: center;
+  padding: 2rem;
+}
+
+.buttonpad {
+  margin: 1rem;
+}
+
+.question {
+  padding: 1rem;
+  margin: 1rem;
+  border-style: solid;
 }
 
 .App-logo {
