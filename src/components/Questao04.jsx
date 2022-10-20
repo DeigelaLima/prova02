@@ -48,6 +48,7 @@ const Questao04 = () => {
     
     return (
         <div className="question">
+            <h2 className='question-title'>Questão 04</h2>
             <h1> Lista de paises da África </h1>
             
             <ul>

@@ -8,8 +8,9 @@ const Questao02 = () => {
 
     return (
         <form className="form-group question">
+            <h2 className='question-title'>Questão 02</h2>
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"></link>
-            <h1> Calculadeira </h1>
+            <h1> Calculadora </h1>
             <input type="number" name="Numero1" placeholder='Número 1' onChange={(event) => setNum1(event.target.value)}></input><br/>
             <input type="number" name="Numero2" placeholder='Número 2' onChange={(event) => setNum2(event.target.value)}></input><br/>
             
@@ -19,10 +20,8 @@ const Questao02 = () => {
             <button type="button" className="btn btn-primary buttonpad" onClick={() => setResult(num1 / num2)}>/</button>
 
             <p>Resultado:{result}</p>
-        </form>
-      
+        </form> 
     )
-    
 }
 
 export default Questao02

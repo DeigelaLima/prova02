@@ -4,8 +4,12 @@
 
 .buttonpad {
   margin: 1rem;
+  padding: 10rem;
 }
 
+.question-title{
+  text-align: center;
+}
 .question {
   padding: 1rem;
   margin: 1rem;
